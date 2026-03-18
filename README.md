@@ -156,8 +156,15 @@ Tenant ─── User ─── ChatMember ─── Chat ─── Message ─�
                  └── UserSubscription
        └── TenantSubscription
 ```
+How to Run
 
----
+Requires Docker Desktop to be installed.
+
+git clone https://github.com/RaunaQ20/chatsphere.git
+cd chatsphere
+docker-compose up --build
+
+Open http://localhost:3000 in your browser.
 
 ---
 
