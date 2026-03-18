@@ -14,7 +14,7 @@ A full stack, real-time chat application built with **React**, **FastAPI**, and 
 | 4 | **Sharing** | ✅ Forward messages + shareable links |
 | 5 | **Real-time indicators** | ✅ Typing indicators + online/offline presence |
 | 6 | **Multiple chat windows** | ✅ DMs, Groups, Topic channels |
-| 7 | **Topic-based chats** | ✅ Filterable topic channels (like Slack) |
+| 7 | **Topic-based chats** | ✅ Filterable topic channels |
 | 8 | **Rate limiting** | ✅ Per-IP rate limiting via slowapi |
 | 9 | **Subscription plans** | ✅ Free / Pro / Enterprise with Stripe scaffold |
 | 10 | **Authentication** | ✅ JWT access+refresh tokens, bcrypt, per-tenant |
