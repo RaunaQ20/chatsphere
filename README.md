@@ -1,4 +1,4 @@
-# 💬 ChatSphere — Real-Time Multi-Tenant Chat Application
+# 💬 ChatSphere — Real-Time Multi Tenant Chat Application
 
 A full-stack, production-ready real-time chat application built with **React**, **FastAPI**, and **PostgreSQL**.
 
