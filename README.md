@@ -159,40 +159,6 @@ Tenant ─── User ─── ChatMember ─── Chat ─── Message ─�
 
 ---
 
-## 🔧 Configuration
-
-Key environment variables (`.env`):
-
-```env
-DATABASE_URL=postgresql+asyncpg://chatuser:chatpass@localhost:5432/chatdb
-REDIS_URL=redis://localhost:6379
-SECRET_KEY=your-32-char-secret-key
-STRIPE_SECRET_KEY=sk_test_...       # For subscription billing
-STRIPE_PRO_PRICE_ID=price_...
-MAX_FILE_SIZE_MB=10
-```
-
----
-
-## 🎨 Multi-Tenancy Flow
-
-1. **Create organization**: `POST /api/v1/auth/register-tenant` → get `slug`
-2. **Register users**: `POST /api/v1/auth/register` with `tenant_slug`
-3. **Login**: `POST /api/v1/auth/login` with `tenant_slug`
-4. All data (chats, messages, users) is fully isolated per tenant
-
----
-
-## 💳 Subscription Plans
-
-| Plan | Price | Users | Chats | File Size |
-|------|-------|-------|-------|-----------|
-| Free | $0 | 5 | 10 | 5 MB |
-| Pro | $9.99/mo | 50 | Unlimited | 50 MB |
-| Enterprise | $49.99/mo | Unlimited | Unlimited | 500 MB |
-
-To enable real Stripe billing, set `STRIPE_SECRET_KEY` and `STRIPE_PRO_PRICE_ID` in `.env`.
-
 ---
 
 ## 📜 License
