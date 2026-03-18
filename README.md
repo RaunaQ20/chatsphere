@@ -156,7 +156,7 @@ Tenant ─── User ─── ChatMember ─── Chat ─── Message ─�
                  └── UserSubscription
        └── TenantSubscription
 ```
-How to Run
+How to Run:
 
 Requires Docker Desktop to be installed.
 
