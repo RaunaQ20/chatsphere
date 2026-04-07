@@ -1,4 +1,4 @@
-# 💬 ChatSphere — Real-Time Multi Tenant Chat Application
+# ChatSphere — Real-Time Multi Tenant Chat Application
 
 A full stack, real-time chat application built with **React**, **FastAPI**, and **PostgreSQL**.
 
@@ -170,3 +170,4 @@ Open http://localhost:3000 in your browser.
 
 ## 📜 License
 MIT
+Developed by RaunaQ20. 
